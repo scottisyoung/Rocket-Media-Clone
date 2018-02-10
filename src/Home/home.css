@@ -1,0 +1,83 @@
+.Banner-Background {
+    margin: 0 none;
+    padding: 0;
+    border: 0;
+    height: 550px;
+    width: 100%;
+    background-color:rgb(76, 107, 39);
+        background: -webkit-linear-gradient (to right, rgb(59, 83, 30) 0%,rgb(75,104,36) 40%, rgb(85,121,44) 100%); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(to right, rgb(59, 83, 30) 0%,rgb(75,104,36) 40%, rgb(85,121,44)100%); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(to right, rgb(59, 83, 30) 0%,rgb(75,104,36) 40%, rgb(85,121,44) 100%); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, rgb(59, 83, 30) 0%,rgb(75,104,36) 40%, rgb(85,121,44)100%); /* Standard syntax */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Block-Title {
+    height: 500px;
+    width: 550px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+}
+
+.Main-Image {
+    height: 500px;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.Main-Title {
+    font-size: 61px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.1em;
+    font-weight: bold;
+    height: 240px;
+    width: 100%;
+}
+
+.Sub-Title {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    height: 170px;
+    width: 100%;
+    line-height: 1.7em;
+}
+
+.Contact-btn {
+    height: 75px;
+    width: 370px;
+    background-color: #53b547;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px .5px rgba(0, 0, 0, 0.253); 
+}
+
+.Contact-btn:hover {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.C-btn {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
