@@ -1,3 +1,5 @@
+/* Main-Page */
+
 .Banner-Background {
     margin: 0 none;
     padding: 0;
@@ -79,5 +81,335 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+}
+
+/* Case-Studies Section */
+
+.CompaniesBanner {
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(235, 230, 230);
+    margin: 0, none;
+    padding: 0;
+    border: 0;
+}
+
+.Companies-Parent {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.companies-title {
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 75px;
+    font-weight: 600;
+    line-height: 2.5em;
+}
+
+.companies-paragraph {
+    font-size: 20px;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.images-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 53%;
+}
+.image2 {
+    margin-top: 5px;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.image3 {
+    margin-top: 15px;
+    height: 110px;
+    width: 270px;
+    cursor: pointer;
+}
+
+.image4 {
+    margin-top: 15px;
+    height: 75px;
+    width: 280px;
+    cursor: pointer;
+}
+
+.images-parent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.image5 {
+    margin-right: -150px;
+    cursor: pointer;
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.image6 {
+    cursor:pointer;
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.placement {
+    z-index: 2;
+}
+.image7 {
+    margin-left: -150px;
+    cursor:pointer;
+    -webkit-animation-name: fadeInRightBig;
+    animation-name: fadeInRightBig;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.parent-casestudy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cs1 {
+    margin-right: 280px;
+    margin-top: -120px;
+    cursor: pointer;
+    color: #53b547;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cs2 {
+    cursor: pointer;
+    color: #53b547;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cs3 {
+    margin-left: 280px;
+    cursor: pointer;
+    margin-top: -120px;
+    color: #53b547;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.allcsParent {
+    margin-top: 30px;
+    height: 75px;
+    width: 300px;
+    background-color: #53b547;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px .5px rgba(0, 0, 0, 0.253); 
+}
+
+.allcsParent:hover {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.allcs {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* End-Section */
+
+.hvacSellBanner {
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(247, 243, 243);
+    margin: 0, none;
+    padding: 0;
+    border: 0;
+}
+
+.hvacSellParent {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hvacTitle {
+    font-size: 42px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 75px;
+    font-weight: 600;
+    line-height: 2.5em;
+}
+
+.cust-designed-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.icon1 {
+    width: 100px;
+    margin-right: 100px;
+}
+
+.cd-text-title {
+    height: 300px;
+}
+
+.CD-Text {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(10, 133, 235);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.cd-title {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.cd-subtitle {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.cd-text-title2 {
+    height: 300px;
+    margin-right: 35px;
+}
+
+.cd-text-title3 {
+    height: 300px;
+    margin-left: 35px;
+}
+
+.CD-Text2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #53b547;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.CD-Text3 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #53b547;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.cd-title2 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.cd-title3 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.cd-subtitle2 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 110px;
+    margin-left: 40px;
+}
+
+.cd-subtitle3 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.custom-designed2 {
+    margin-right: 100px;
+}
+
+.custom-designed3 {
+    margin-left: 40px;
 }
 
