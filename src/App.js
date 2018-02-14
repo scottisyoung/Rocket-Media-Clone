@@ -6,7 +6,6 @@ import {Route, Switch} from 'react-router-dom';
 
 import Navbar from './Navbar/navbar.js';
 import Home from './Home/home.js';
-import Footer from './Footer/footer.js';
 
 class App extends Component {
   render() {
@@ -17,9 +16,6 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
             </Switch>
-        </div>
-        <div>
-          <Footer />
         </div>
       </div>
     );

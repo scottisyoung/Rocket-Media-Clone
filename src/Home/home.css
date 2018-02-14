@@ -4,7 +4,7 @@
     margin: 0 none;
     padding: 0;
     border: 0;
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color:rgb(76, 107, 39);
         background: -webkit-linear-gradient (to right, rgb(59, 83, 30) 0%,rgb(75,104,36) 40%, rgb(85,121,44) 100%); /* For Safari 5.1 to 6.0 */
@@ -273,7 +273,7 @@
 /* End-Section */
 
 .hvacSellBanner {
-    height: 3000px;
+    height: 4054px;
     width: 100%;
     background-color: rgb(247, 243, 243);
     margin: 0, none;
@@ -366,7 +366,7 @@
 .CD-Text3 {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    color: #53b547;
+    color: rgb(221, 19, 171);
     margin-top: 20px;
     margin-bottom: 40px;
     font-weight: 600;
@@ -393,7 +393,7 @@
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
-    margin-bottom: 110px;
+    margin-bottom: 90px;
     margin-left: 40px;
 }
 
@@ -413,3 +413,342 @@
     margin-left: 40px;
 }
 
+.cust-designed-parent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 330px;
+    width: 100%;
+}
+
+.CD-Text4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(250, 205, 3);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.cd-title4 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.cd-subtitle4 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 70px;
+    margin-right: 100px;
+}
+
+.icon4 {
+    height: 220px;
+}
+
+.cd-text-title5 {
+    height: 300px;
+}
+
+.cd-text-title6 {
+    height: 300px;
+}
+
+.CD-Text5 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: purple;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-right: 380px;
+}
+
+.CD-Text6 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(48, 125, 226);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.cd-title5 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cd-title6 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cd-subtitle5 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cd-subtitle6 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+}
+
+.custom-designed5 {
+    margin-right: 0px;
+}
+
+.custom-designed6 {
+    margin-left: 0px;
+}
+
+.icon6 {
+    height: 350px;
+}
+
+.search-bg {
+    margin-top: 430px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us {
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 2.5em;
+}
+
+.sub-about {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+}
+
+.number-parent {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.numbers {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: rgb(87, 142, 214);
+    width: 150px;
+    margin-bottom: -20px;
+}
+
+.plus {
+  color: rgb(150, 59, 150);
+}
+
+.num-para {
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+}
+
+.know-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.know-btn {
+    height: 75px;
+    width: 370px;
+    background-color: #53b547;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px .5px rgba(0, 0, 0, 0.253); 
+    z-index: 2;
+}
+
+.know-btn:hover {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.ku-btn {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.search-bg-pic {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.group-pic {
+    margin-top: -30px;
+    height: 670px;
+}
+
+/* FOOTER */
+
+.green-footer {
+    width: 100%;
+    height: 370px;
+    background-color: #53b547;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letschat {
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.bolding {
+    font-weight: 900;
+}
+
+.tell-btn {
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px .5px rgba(0, 0, 0, 0.253); 
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.tell-btn:hover {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-funtion: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.tu-btn {
+    font-size: 20px;
+    color: #53b547;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: white;
+    background-color:  #53b547;
+    border-radius: 100%;
+    height: 135px;
+    width: 135px;
+}
+
+.wood-parent {
+    background-image:url(../Images/wood.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.ring {
+    font-size: 45px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.phone-number {
+    font-size: 45px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #53b547;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.stop-in {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.address {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+.map {
+    color: #53b547;
+    cursor: pointer;
+}
+
+.partner {
+    height: 70px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.terms {
+    font-size: 14px;
+}
